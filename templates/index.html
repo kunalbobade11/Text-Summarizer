@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Automatic Text Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Automatic Text Summarizer</h2>
+
+        <textarea id="inputText" placeholder="Paste your text here..."></textarea><br>
+
+        <button onclick="summarize()">Summarize</button>
+        <button class="clear-btn" onclick="clearFields()">Clear</button>
+
+        <div class="output" id="summaryOutput"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

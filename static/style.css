@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #43a047;
+}
+
+button.clear-btn {
+    background-color: #e74c3c;
+}
+
+button.clear-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Summary output box */
+.output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    min-height: 100px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Loading animation text */
+.loading {
+    color: #555;
+    font-style: italic;
+}
+
+/* Mobile-friendly */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+        margin-top: 8px;
+    }
+}
